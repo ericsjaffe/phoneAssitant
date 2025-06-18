@@ -7,7 +7,7 @@ app = Flask(__name__)
 SPAM_KEYWORDS = ["loan", "finance", "refinance", "debt", "interest rate"]
 
 # Replace with your real forwarding number
-FORWARDING_NUMBER = "+2154319224"
+FORWARDING_NUMBER = "+12154319224"
 
 @app.route("/voice", methods=["POST"])
 def voice():
